@@ -1,10 +1,17 @@
-class Alien {
-
-    var name: String = "Alien";
+class Person {
+    var name: String ="Alien";// default value 'alien'
 }
 
-fun main(){
-     var al = Alien();
+fun main() {
 
-     print(al.name)
+    val person = Person();
+
+    // print : alien
+
+    print(person.name)
+    person.name = "Pitter"
+
+    // print : pitter
+    print(person.name)
+
 }
