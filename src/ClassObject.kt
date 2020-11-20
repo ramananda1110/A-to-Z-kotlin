@@ -1,10 +1,10 @@
-class Person {
+class Person2 {
     var name: String ="Alien";// default value 'alien'
 }
 
 fun main() {
 
-    val person = Person();
+    val person = Person2();
 
     // print : alien
 
