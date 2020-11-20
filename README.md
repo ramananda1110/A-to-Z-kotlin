@@ -20,16 +20,21 @@ Kotlin uses two different keywords to declare variables: val and var.
 - Use var for a variable whose value can change.
 
 ```kotlin
+fun main() {
 
     var num1 = 5;
     num1 = 20;
 
     val num2 = 10;
-    val name:String = "default value"
-    // can't reassign a value
-    num2 = 12;
+    var name:String = "default value"
     name = "re-assign value"
+    
+    num2 = 12; // can't reassign a value
 
+    val result = num1 + num2;
+
+    print(result)
+}
 
 ```
 
