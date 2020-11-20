@@ -60,3 +60,38 @@ fun main() {
 
 }
 ```
+
+Kotlin & Java Together :
+
+```java
+public class Person {
+
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+
+```
+
+```kotlin
+
+
+fun main(){
+
+    val p1 = Person();
+
+    p1.name = "Alien" // don't have to set name or get name , automatically  it's will be set or get by default
+
+    print(p1.name)
+}
+
+
+```
+
